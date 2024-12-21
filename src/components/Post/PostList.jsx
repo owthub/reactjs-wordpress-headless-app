@@ -3,6 +3,7 @@ import AddPostModal from "./Modal/AddPostModal"
 import EditPostModal from "./Modal/EditPostModal"
 import Loader from "../Loader"
 
+// Post List Component
 const PostList = () => {
 
     const [addPostModalFlag, setAddPostModalFlag] = useState(false)
